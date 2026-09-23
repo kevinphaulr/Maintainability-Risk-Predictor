@@ -1,0 +1,22 @@
+{
+  "name": "maintainability-risk-predictor",
+  "version": "1.0.0",
+  "description": "Predicting Software Maintainability Risk Using Repository Evolution Graph Intelligence and Explainable AI",
+  "private": true,
+  "scripts": {
+    "dev:backend": "python -m uvicorn backend.main:app --reload --port 8000",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "software-engineering",
+    "maintainability-risk",
+    "graph-attention-network",
+    "explainable-ai",
+    "git-mining",
+    "fastapi",
+    "react"
+  ],
+  "author": "Final Year Engineering Research Team",
+  "license": "MIT"
+}

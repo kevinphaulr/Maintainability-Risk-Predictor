@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# Git clones and uploads
+backend/repositories/*
+!backend/repositories/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Dataset & Models
+dataset/*.pt
+dataset/*.json
+!dataset/.gitkeep
+trained_models/*.pt
+!trained_models/.gitkeep
+reports/*.pdf
+reports/*.csv
+reports/*.json
+!reports/.gitkeep
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
